@@ -1,6 +1,7 @@
 @import '../assets/Colours.css';
 
 .card {
+    position: relative;
     font-size: 14px;
     margin: 0 20px;
 }
@@ -10,16 +11,28 @@
     font-size: 14px;
 }
 
+.card-badge {
+    position: absolute;
+    background-color: var(--bgcolor);
+    left: 5%;
+    top: 5%;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .card-grid {
+    overflow-x: scroll;
     display: flex;
     width: 100%;
     padding: 40px 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .card-image {
     width: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
     margin: 10px 0;
 }
 

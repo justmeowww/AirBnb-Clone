@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+#root {
+  width: 100%;
+}
